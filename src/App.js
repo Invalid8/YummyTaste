@@ -5,10 +5,12 @@ import Menu from './Pages/Menu';
 import About from './Pages/About';
 import Blog from './Pages/Blog';
 import Contact from './Pages/Contact';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <>
+      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Routes path="/menu" element={<Menu />} />
