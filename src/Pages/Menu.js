@@ -1,6 +1,6 @@
 const Menu = () => {
     return ( 
-        <h1>hI GUYS</h1>
+        <h1>hI GUYS2</h1>
     );
 }
  

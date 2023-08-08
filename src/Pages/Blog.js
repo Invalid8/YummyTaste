@@ -1,6 +1,6 @@
 const Blog = () => {
     return ( 
-        <h1>hI GUYS</h1>
+        <h1>hI GUYS4</h1>
     );
 }
  
