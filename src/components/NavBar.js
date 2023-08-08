@@ -4,7 +4,7 @@ const NavBar = () => {
     return ( 
         <div className="navHeader">
             <div className="logo">
-                YummyTaste
+                YummyTaste2
             </div>
             <div className="navLinks">
                 <div className="showContentOnSmallerSreen">
