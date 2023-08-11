@@ -7,3 +7,22 @@
 .container .header {
   text-align: center;
 }
+
+.container .imgBox {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nBtn {
+  background-color: var(--color4);
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  width: fit-content;
+  border-radius: 4px;
+}
+
+.nBtn a{
+  color: #fff;
+}

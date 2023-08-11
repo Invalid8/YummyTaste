@@ -3,6 +3,52 @@
 @import url('@fontsource/roboto/500.css');
 @import url('@fontsource/roboto/700.css');
 
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  box-sizing: border-box;
+  text-underline-position: under;
+  text-decoration-thickness: 8;
+}
+
+label,
+button,
+select,
+summary,
+[type=radio],
+[type=submit],
+[type=checkbox] {
+    cursor: pointer;
+}
+
+html {
+  -webkit-text-size-adjust: none; /* for iOS Safari */
+  text-size-adjust: none; /* for other mobile browsers */
+  font-size: 100%;
+}
+
+menu:not(article menu),
+ol:not(article ol),
+ul:not(article ul) {
+    list-style: none;
+}
+
+article ol,
+article ul {
+    list-style-position: inside;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
 :root {
 	--color1: #d4f0fc;
 	--color2: #89d6fb;
@@ -18,6 +64,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
 }
 
 code {
@@ -36,4 +83,10 @@ code {
 
 .dark-bg a:active {
   color: var(--color2) !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+        scroll-behavior: smooth;
+  }
 }
